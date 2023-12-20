@@ -70,7 +70,7 @@ class LandingPage extends StatelessWidget {
           buildBottomNavigationMenu(context, landingPageController),
       body: Obx(() => IndexedStack(
             index: landingPageController.tabIndex.value,
-            children: [SubHomeView(), SubHomeView(),  SettingsView()],
+            children: [HomeView(), SubHomeView(),  SettingsView()],
           )),
     ));
   }
