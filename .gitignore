@@ -1,0 +1,60 @@
+# Flutter/Dart specific
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+.test_coverage/
+.web/
+build/
+coverage/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+macos/Flutter/App.framework/
+macos/Flutter/Flutter.framework/
+web/assets/
+web/favicon.png
+web/flutter_service_worker.js
+web/index.html
+web/main.dart.js
+web/main.dart.js.map
+
+# Android specific
+**/android/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/gradle.properties
+**/android/gradle-wrapper.jar
+**/android/gradle-wrapper.properties
+**/android/gradle-*.properties
+
+# iOS specific
+**/ios/Pods/
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# Visual Studio Code specific
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA/Android Studio specific
+**/*.iml
+**/*.ipr
+**/*.iws
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio Plugin specific
+/.flutter-plugins
+/.flutter-plugins-dependencies
+
+# Flutter packages
+/.metadata
